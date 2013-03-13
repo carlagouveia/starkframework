@@ -1,0 +1,26 @@
+{
+    "name": "carlagouveia/stark",
+    "description": "Simple MVC framework based on Symfony components.",
+    "keywords": ["framework", "mvc"],
+    "homepage": "https://github.com/carlagouveia/stark",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Carla Gouveia",
+            "email": "contato@carlagouveia.com",
+            "homepage": "http://www.carlagouveia.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "2.2.*",
+        "symfony/http-foundation": "2.2.*",
+        "symfony/templating": "2.2.*",
+        "monolog/monolog": ">=1.0.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
